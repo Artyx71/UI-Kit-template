@@ -1,0 +1,96 @@
+body {
+  font-family: "Inter";
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 10px;
+  color: #6b778d;
+}
+
+form {
+  width: 100%;
+  color: #6b778d;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+input {
+  border: none;
+  outline: none;
+  margin: 15px 0 15px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
+.first__input {
+  box-sizing: border-box;
+  width: 424px;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: #c9ebfc;
+}
+
+.second__select {
+  box-sizing: border-box;
+  width: 424px;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: #c9ebfc;
+  padding-right: 15px;
+}
+
+.second__input {
+  box-sizing: border-box;
+  background: url(/icons/search.svg) no-repeat, url(/icons/mail.svg) no-repeat;
+  background-position: 10px, 98%;
+  background-size: 16px;
+  width: 424px;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px 16px 16px 30px;
+  background-color: #c9ebfc;
+}
+
+.first__textarea {
+  box-sizing: border-box;
+  padding: 5px 0 0 5px;
+  background-color: #c9ebfc;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  resize: none;
+}
+
+.third__input {
+  box-sizing: border-box;
+  background: url(/icons/Visa.svg) no-repeat;
+  background-position: 95%;
+  background-size: 50px;
+  width: 424px;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px 16px 16px 30px;
+  background-color: #c9ebfc;
+}
+
+.fourth__input {
+  box-sizing: border-box;
+  background: url(/icons/mail.svg) no-repeat;
+  background-size: 16px;
+  background-position: 2%;
+  width: 424px;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px 16px 16px 35px;
+  background-color: #c9ebfc;
+}
