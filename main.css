@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Inter";
   box-sizing: border-box;
@@ -26,9 +29,22 @@ input {
   line-height: 20px;
 }
 
+input:focus {
+  color: #272c37;
+  font-weight: 700;
+  background-color: #c9ebfc;
+  border: 1px solid #c9ebfc;
+}
+
 select {
   border: none;
   outline: none;
+}
+
+select:hover {
+  border: 3px solid #0062cc;
+  border-radius: 6px;
+  background: #ffffff;
 }
 
 .first__input {
@@ -40,21 +56,26 @@ select {
   background-color: #c9ebfc;
 }
 
-.second__select {
+.first__select {
   box-sizing: border-box;
   width: 424px;
+  background-color: #c9ebfc;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px;
-  background-color: #c9ebfc;
   padding-right: 15px;
+  border: 3px solid transparent;
+
+  /* background: url(/icons/search.svg) no-repeat; */
+  /* background-position: left;
+  background-size: 20px; */
 }
 
 .second__input {
   box-sizing: border-box;
   background: url(/icons/search.svg) no-repeat, url(/icons/mail.svg) no-repeat;
   background-position: 10px, 98%;
-  background-size: 16px;
+  background-size: 20px;
   width: 424px;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
@@ -93,4 +114,17 @@ select {
   border-radius: 6px;
   padding: 16px 16px 16px 35px;
   background-color: #c9ebfc;
+}
+
+.second__select {
+  background: url(/icons/mail.svg) no-repeat;
+  background-position: 2%;
+  background-size: 16px;
+  box-sizing: border-box;
+  width: 424px;
+  background-color: #c9ebfc;
+  border: 1px solid #c9ebfc;
+  border-radius: 6px;
+  padding: 16px 16px 16px 30px;
+  border: 3px solid transparent;
 }
