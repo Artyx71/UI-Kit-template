@@ -32,13 +32,20 @@ input {
 input:focus {
   color: #272c37;
   font-weight: 700;
-  background-color: #c9ebfc;
+
   border: 1px solid #c9ebfc;
 }
 
 select {
+  font-family: "Inter";
   border: none;
   outline: none;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 100%;
+
+  color: #6b778d;
 }
 
 select:hover {
@@ -47,19 +54,27 @@ select:hover {
   background: #ffffff;
 }
 
+select:focus {
+  border: 1px solid #c9ebfc;
+  background-color: #edf0f4;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 100%;
+}
+
 .first__input {
   box-sizing: border-box;
   width: 424px;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
 }
 
 .first__select {
   box-sizing: border-box;
   width: 424px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px;
@@ -80,16 +95,21 @@ select:hover {
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px 16px 16px 30px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
 }
 
 .first__textarea {
+  font-family: "Inter";
   box-sizing: border-box;
   padding: 5px 0 0 5px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   resize: none;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 100%;
+  width: 424px;
 }
 
 .third__input {
@@ -101,7 +121,7 @@ select:hover {
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px 16px 16px 30px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
 }
 
 .fourth__input {
@@ -113,7 +133,7 @@ select:hover {
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px 16px 16px 35px;
-  background-color: #c9ebfc;
+  background-color: #edf0f4;
 }
 
 .second__select {
@@ -122,7 +142,7 @@ select:hover {
   background-size: 16px;
   box-sizing: border-box;
   width: 424px;
-  background-color: #c9ebfc;
+  background: #edf0f4;
   border: 1px solid #c9ebfc;
   border-radius: 6px;
   padding: 16px 16px 16px 30px;
